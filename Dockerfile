@@ -8,3 +8,6 @@ ENV MYSQL_ROOT_PASSWORD=rootpassword
 ENV MYSQL_DATABASE=db_pakar
 ENV MYSQL_USER=user
 ENV MYSQL_PASSWORD=user
+
+# Expose port MariaDB (3306)
+EXPOSE 3306
